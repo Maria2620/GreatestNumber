@@ -1,0 +1,62 @@
+h1 {
+    color: rgb(66, 31, 101);
+    margin-top: 100px;
+}
+
+.form1 {
+    margin-top: 65px;
+}
+
+@media(min-width:1200px) {
+    .form1 {
+        width: 40%;
+    }
+}
+
+@media(max-width:1200px) {
+    .form1 {
+        width: 40%;
+    }
+}
+
+@media(max-width:1004px) {
+    .form1 {
+        width: 60%;
+    }
+
+    .bt1 {
+        width: 75%;
+    }
+}
+
+@media(max-width:945px) {
+    .form1 {
+        width: 65%;
+    }
+
+    .bt1 {
+        width: 75%;
+    }
+}
+
+@media(max-width:730px) {
+    .form1 {
+        width: 65%
+    }
+}
+
+@media(max-width:620px) {
+    .form1 {
+        width: 65%;
+    }
+}
+
+@media(max-width:412px) {
+    .form1 {
+        width: 75%;
+    }
+
+    .bt1 {
+        width: 50%;
+    }
+}
